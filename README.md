@@ -20,7 +20,7 @@ The contract emits events for the initialization of the contract,
 as well as for the deposit and withdrawal of NFTs. Overall, 
 this contract provides a simple implementation of NFTs and demonstrates the core functionality required for creating and managing them in a blockchain environment.
 
-#### Requirements
+## Requirements
 * Access to a Flow network node.
 * Cadence Compiler
 * Cadence REPL
@@ -28,9 +28,9 @@ this contract provides a simple implementation of NFTs and demonstrates the core
 
 #### Deploy the contract
 * Compile the contract using the Cadence Compiler.
-* Deploy the contracts "NFTCore.cdc" and "NonFungibleToken.cdc" to the Flow network node.(NOTE: deploying address should be updated on all required .cdc files) 
-* Create the collection with "createCollection.cdc"
-* Mint a new NFT with "Deposit NFT.cdc"
+* Deploy the contracts "NonFungibleToken.cdc.cdc" and "NFT_1.cdc" to the Flow network node.(NOTE: deploying address should be updated on all required .cdc files) 
+* Create the collection with "CreateColl.cdc"
+* Mint a new NFT with "DepoNFT.cdc"
 * Use Scripts to display metadata of the NFT's
 
 #### Other Usable Functions Inside The Contract
